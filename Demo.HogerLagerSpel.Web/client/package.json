@@ -1,0 +1,18 @@
+{
+  "name": "onderdeel4.demo.hoger-lager-spel.client",
+  "version": "1.0.0",
+  "private":  true,
+  "description": "",
+  "scripts": {
+    "watch": "npx webpack --watch"    
+  },
+  "keywords": [
+    "UCLL",
+    "hoger",
+    "lager"
+  ],
+  "devDependencies": {
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0"
+  }
+}

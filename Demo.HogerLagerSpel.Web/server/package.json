@@ -1,0 +1,17 @@
+{
+  "name": "onderdeel4.demo.hoger-lager-spel.server",
+  "version": "1.0.0",
+  "private":  true,
+  "description": "",
+  "scripts": {
+    "serve": "node app.js"
+  },
+  "keywords": [
+    "UCLL",
+    "hoger",
+    "lager"
+  ],
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}

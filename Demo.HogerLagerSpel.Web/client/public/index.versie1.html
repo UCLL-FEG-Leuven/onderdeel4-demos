@@ -1,0 +1,76 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Hoger Lager versie 1
+        1. alle vragen worden in één keer getoond.
+        2. geen 'penalty' voor foutief antwoord: je kan een meermaals antwoorden.
+        3. score kan hoger dan aantal vragen liggen (= meermaals op het juiste antwoord klikken).
+        4. via 'Paginabron weergeven' kan je achterhalen wat de juiste antwoorden zijn.       
+        5. inline JavaScript (= JavaScript in het HTML document). Beter: JavaScript in aparte .js bestand.
+        6. gebruik van 'onclick' attributen voor de aanroep van JavaScript functies. Beter: gebruik addEventListener()
+    -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>UCLL Hoger Lager Spel (v1)</title>
+</head>
+<body class="container">
+    <h1>UCLL Hoger Lager Spel (v1)</h1>
+    <section>
+        <p>
+            Het aantal studenten is
+            <br />
+            <button onclick="verhoogJuisteAntwoordenTeller()">Hoger</button> <button>Lager</button>
+            <br />
+            dan 14500.
+        </p>
+    </section>
+    <section>
+        <p>
+            Het aantal campussen van UCLL is
+            <br />
+            <button>Hoger</button> <button onclick="verhoogJuisteAntwoordenTeller()">Lager</button>
+            <br />
+            dan 10.
+        </p>
+    </section>
+    <section>
+        <p>
+            Het aantal graduaten die je kan volgen bij UCLL is
+            <br />
+            <button onclick="verhoogJuisteAntwoordenTeller()">Hoger</button> <button>Lager</button>
+            <br />
+            dan 12.
+        </p>
+    </section>
+    <section>
+        <p>
+            Het aantal medewerkers van UCLL is
+            <br />
+            <button>Hoger</button> <button onclick="verhoogJuisteAntwoordenTeller()">Lager</button>
+            <br />
+            dan 1800.
+        </p>
+    </section>
+
+    <section>
+        <p>Uw score is: <span id="score"></span></p>
+    </section>
+
+    <script>
+        let aantalJuisteAntwoorden = 0;
+        function verhoogJuisteAntwoordenTeller() {
+            aantalJuisteAntwoorden++;
+            document.getElementById("score").innerText = aantalJuisteAntwoorden;
+        }
+    </script>
+
+    <!-- JavaScript voor Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

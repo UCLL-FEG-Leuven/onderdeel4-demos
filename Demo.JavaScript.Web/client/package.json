@@ -1,0 +1,17 @@
+{
+  "name": "onderdeel4.demo.javascript.client",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "watch": "npx webpack --watch"    
+  },
+  "keywords": [
+    "UCLL",
+    "JavaScript",
+    "Fundamenten"
+  ],
+  "devDependencies": {
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0"
+  }
+}
