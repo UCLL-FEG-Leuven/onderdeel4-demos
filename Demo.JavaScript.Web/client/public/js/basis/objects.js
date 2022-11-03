@@ -1,6 +1,6 @@
 ﻿console.log("*** objects.js ***");
 
-var uitvinderVanWWW = {
+let uitvinderVanWWW = {
     voornaam: "Tim",
     familienaam: "Berners-Lee",
     toString: function () {
@@ -8,7 +8,7 @@ var uitvinderVanWWW = {
     }
 };
 document.getElementById("basics-objects-www").innerHTML = uitvinderVanWWW.toString();
-for (var prop in uitvinderVanWWW) {
+for (let prop in uitvinderVanWWW) {
     console.log(prop + ": " + uitvinderVanWWW[prop]);
 }
 

@@ -3,7 +3,7 @@
 /*
  * prompt
  */
-// var input = prompt("1 + 1 =");
+// let input = prompt("1 + 1 =");
 
 /*
  * HTML DOM
