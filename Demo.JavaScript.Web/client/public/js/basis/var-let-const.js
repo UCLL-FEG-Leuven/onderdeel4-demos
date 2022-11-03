@@ -30,17 +30,17 @@ console.log("-- var scoping");
     if (x === 1) {
         var x = 2;
 
-        console.log(x);
+        console.log("De waarde van x in de if-block: " + x);
         // expected output: 2
     }
 
-    console.log(x);
+    console.log("De waarde van x buiten de if-block: " +  x);
 // expected output: 2
 })();
 console.log("-- var hoisting");
 (function () {
     var x = 1;
-    console.log(x + " " + y);
+    console.log("x + ' ' + y: " + x + " " + y);
     var y = 2;
 
     // Eigenlijk staat hier volgende code:
