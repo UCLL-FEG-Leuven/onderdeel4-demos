@@ -1,23 +1,23 @@
 ﻿console.log("*** types.js ***");
 
 // boolean
-var oneEqualsOne = true;
-var earthIsFlat = false;
+let oneEqualsOne = true;
+let earthIsFlat = false;
 
 // string
-var hello = "Hello world";
+let hello = "Hello world";
 console.log(hello);
 
 // number (geheel getal)
-var minAge = 18;
+let minAge = 18;
 console.log(minAge);
 
 // number (kommagetal)
-var temperature = 20.5;
+let temperature = 20.5;
 console.log(temperature);
 
 // array
-var courses = ["GIAdPG4", "GIAdPG5"];
+let courses = ["GIAdPG4", "GIAdPG5"];
 console.log(courses);
 console.log(courses.length);
 console.log(courses[0]);
