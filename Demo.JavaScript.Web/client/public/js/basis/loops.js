@@ -11,7 +11,7 @@ while (true) {
 }
 
 
-var quit = false;
+let quit = false;
 do {
     console.log("In do while...");
     quit = true;
