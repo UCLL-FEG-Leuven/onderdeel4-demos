@@ -1,7 +1,7 @@
 ﻿console.log("*** conditional.js ***");
 
-var age = 80;
-var reduction = 0;
+let age = 80;
+let reduction = 0;
 if (age < 18) {
     reduction = 0.10;
 }
@@ -10,7 +10,7 @@ else if (age >= 65) {
 }
 console.log("reduction: " + (reduction * 100) + "%");
 
-var state = 1;
+let state = 1;
 switch (state) {
     case 0:
         console.log("idle");
