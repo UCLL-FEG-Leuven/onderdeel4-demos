@@ -17,7 +17,7 @@
     }
 }
 
-var uitvinderVanJS = new Persoon("Brendan", "Eich");
+let uitvinderVanJS = new Persoon("Brendan", "Eich");
 document.getElementById("classes-objects-js").innerHTML = uitvinderVanJS.volledigeNaam();
 for (prop in uitvinderVanJS) {
     console.log(prop + ": " + uitvinderVanJS[prop]);
