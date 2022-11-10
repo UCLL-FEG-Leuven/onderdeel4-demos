@@ -1,8 +1,8 @@
 ﻿module.exports = {
     entry: {
-        versie7: './public/js/versie6.js'
+        versie9: './public/js/versie8/index.js'
     },
     output: {
-        filename: '../public/js/versie7.js'
+        filename: '../public/js/versie9.js'
     }
 }

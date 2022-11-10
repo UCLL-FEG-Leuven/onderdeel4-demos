@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <!-- Hoger Lager versie 6
-        8. Puntje 8 is nu volledig in orde.
+        9. Dit puntje is nu ook in orde, ready to ship!
 
-        De opdrachtgever vindt het functioneel heel goed nu, maar zou toch graag hebben dat het valspelen nog extra bemoeilijkt wordt door de JavaScript minder leesbaar te maken.
-        Verder komt de auditor ook nog eens langs en die zou graag hebben dat alle code commentaren worden weggewerkt om te vermijden dat bedrijfsinformatie naar buiten lekt.
-        
-        9. Terug een nieuwe taak: code omvormen (minimizen) door middel van een bundler. 
+        Hoewel, ... de web designer komt langs ... 
+
+        Neen, we gaan hier nu wel stoppen :)
     -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -16,10 +15,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>UCLL Hoger Lager Spel (v6)</title>
+    <title>UCLL Hoger Lager Spel (v9)</title>
 </head>
 <body class="container">
-    <h1>UCLL Hoger Lager Spel (v7)</h1>
+    <h1>UCLL Hoger Lager Spel (v9)</h1>
     <main id="spel">        
     </main>
 
@@ -27,9 +26,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
-    <script src="js/versie7/vraag.js"></script>
-    <script src="js/versie7/vragen-loader.js"></script>
-    <script src="js/versie7/spel.js"></script>
-    <script src="js/versie7/index.js"></script>
+    <!-- Opgelet: versie7 is een bundle van versie6 (zie webpack.config.js). -->
+    <script src="js/versie9.js"></script>
 </body>
 </html>

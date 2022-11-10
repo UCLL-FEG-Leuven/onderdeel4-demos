@@ -34,8 +34,6 @@ let aantalGesteldeVragen = 0;
 let aantalJuisteAntwoorden = 0;
 
 // Deze functie zal een willekeurige vraag selecteren en de DOM bijwerken.
-// Let wel: het kan zijn dat een vraag meermaals zal gesteld worden... 
-// om dat te fixen ... da's eventueel een volgende versie :)
 function stelVraag() {
     // Math.Random geeft een getal in het interval [0,1[
     // Door te vermenigvuldigen met vragen.length - 1 wordt dat een getal in het interval [0, vragen.length - 1].
